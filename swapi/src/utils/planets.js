@@ -1,6 +1,7 @@
 // star wars planets
- const planets = [
+export const planets = [
     {
+        id: 1,
         name: "Tatooine",
         rotation_period: "23",
         orbital_period: "304",
@@ -12,6 +13,7 @@
         population: "200000",
     },
     {
+        id: 2,
         name: "Alderaan",
         rotation_period: "24",
         orbital_period: "364",
@@ -23,17 +25,18 @@
         population: "1000000000",
     },
     {
+        id: 3,
         name: "Yavin IV",
         rotation_period: "24",
         orbital_period: "4818",
         diameter: "10200",
-        climate: "tropical, temperate, arid, polar",
+        climate: "tropical",
         gravity: "1",
-        terrain: "jungle, rainforests, temperate forests, mountains, swamps, grasslands, deserts, tundra, ice caves, cave systems, rocky canyons, volcanoes, lava tubes, geysers, hot springs, glaciers, icebergs, ice floes, ice caps, ice sheets, ice shelves, icebergs and ice floes.",
+        terrain: "jungle, rainforests",
         surface_water: "8",
         population: "1000",
     }
-]
+];
 
 export const getPlanets = async () => {
     return new Promise((resolve) => {
@@ -41,4 +44,4 @@ export const getPlanets = async () => {
             resolve(planets);
         }, 1000);
     });
-}
+};
