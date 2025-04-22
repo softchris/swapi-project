@@ -1,0 +1,17 @@
+{
+    "name": "swapi-project",
+    "version": "1.0.0",
+    "description": "Star Wars API with Azure Functions v4",
+    "type": "module",
+    "main": "src/functions/",
+    "scripts": {
+        "start": "func start",
+        "test": "echo \"No tests yet...\""
+    },
+    "dependencies": {
+        "@azure/functions": "^4.0.0"
+    },
+    "devDependencies": {
+        "azure-functions-core-tools": "^4.x"
+    }
+}

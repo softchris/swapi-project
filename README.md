@@ -12,7 +12,7 @@ Welcome to the **Star Wars API (SWAPI)** project, built with Azure Functions v4 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/softchris/swapi-project.git
-   cd swapi
+   cd swapi-project
    ```
 2. **Install dependencies:**
    ```bash
@@ -42,25 +42,27 @@ Welcome to the **Star Wars API (SWAPI)** project, built with Azure Functions v4 
 
 ## 🛠️ Project Structure
 ```
-swapi/
-  src/
-    functions/
-      planets.js
-      characters.js
-      films.js
-      species.js
-      starships.js
-      vehicles.js
-    utils/
-      planets.js
-      characters.js
-      films.js
-      species.js
-      starships.js
-      vehicles.js
-  host.json
-  local.settings.json
-  package.json
+src/
+  functions/
+    planets.js
+    characters.js
+    films.js
+    species.js
+    starships.js
+    vehicles.js
+    root.js
+  utils/
+    planets.js
+    characters.js
+    films.js
+    species.js
+    starships.js
+    vehicles.js
+host.json
+local.settings.json
+package.json
+LICENSE
+README.md
 ```
 
 ## 📝 Notes
